@@ -915,7 +915,7 @@
             }
 
             if (location === 'bottom') {
-                error.offset({top: offset.top + error.outerHeight()});
+                error.offset({top: offset.top + $target.outerHeight()});
             }
         } else if (filters.leftright.test(location)) {
             error.offset({top: (offset.top + $target.outerHeight() / 2) - (error.outerHeight() / 2)});
